@@ -25,13 +25,3 @@ services:
       eljupyter/.
     ports:
       - "8888:8888"
-
-
-
-
- import xarray as xr 
-
- import xarray as xr
- from dask.distributed import Client, progress
-c = Client("scheduler:8786")
-c
